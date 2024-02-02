@@ -1,0 +1,52 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: $font-med;
+  color: black;
+  line-height: 1.3;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: darkblue;
+}
+
+//Flexbox styles
+.flex {
+  display: flex;
+
+  //Justify content - Space between
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  //Justify content - Center
+  &-jc-c {
+    justify-content: center;
+  }
+
+  //Align items - Center
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+//Buttons
+button, .button{
+  padding: 1rem 1.875rem;
+  background-color: darkblue;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+}

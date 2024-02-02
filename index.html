@@ -3,9 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="dist/style.css">
   <title>Design Hub</title>
+
 </head>
+
 <body>
-  <h1>Aqui ira tu primera página web.</h1>
+  <!--Mobile Menu-->
+  <header class="header">
+    <!--Nav-->
+    <nav class="flex flex-jc-sb flex-ai-c">
+      <!--Logo-->
+      <a href="/" alt="DesignHub" class="header__logo">
+        <img src="" alt="">
+      </a>
+
+      <!--Hamburger Menu (Mobile)-->
+      <a href="#" class="header__menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <!--Menu Links (Mobile & Desktop)-->
+      <div class="header__links">
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+      </div>
+
+      <!--CTA Contacto-->
+      <button type="button">Contactanos</button>
+    </nav>
+  </header>
+  <!--END of Mobile Menu-->
+
+  <script src="app/js/main.js"></script>
 </body>
+
 </html>
